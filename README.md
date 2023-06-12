@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://age-calculator-app-sabina.netlify.app/)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://github.com/SabinaCristea/age-calculator-app.git)
 
 ### Built with
 
