@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./phone-query.css" />
+    <script defer src="./script.js"></script>
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+
+  <body>
+    <div class="calculator-section">
+      <div class="calculator-container">
+        <!-- INPUT SECTION -->
+        <div class="date-section">
+          <div class="date-container">
+            <!-- DAY INPUT -->
+            <div class="day parent-el">
+              <label for="day-input" class="day-text">DAY</label>
+              <input
+                type="number"
+                id="day-input"
+                name="day-input"
+                placeholder="DD"
+                class="day-box"
+              />
+            </div>
+            <!-- MONTH INPUT -->
+            <div class="month parent-el">
+              <label for="month-input" class="month-text">MONTH</label>
+              <input
+                type="number"
+                id="month-input"
+                name="month-input"
+                placeholder="MM"
+                class="month-box"
+              />
+            </div>
+            <!-- YEAR INPUT -->
+            <div class="year parent-el">
+              <label for="year-input" class="year-text">YEAR</label>
+              <input
+                type="number"
+                id="year-input"
+                name="year-input"
+                placeholder="YYYY"
+                class="year-box"
+              />
+            </div>
+          </div>
+          <!-- BUTTON -->
+          <div class="line"></div>
+          <button class="show-results-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="44"
+              viewBox="0 0 46 44"
+            >
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path
+                  d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+                />
+              </g>
+            </svg>
+          </button>
+        </div>
+        <!-- RESULTS SECTION -->
+        <div class="results-section">
+          <div class="results-container">
+            <div class="num-of-years">
+              <span class="dash dash-year">- -</span> years
+            </div>
+            <div class="num-of-months">
+              <span class="dash dash-month">- -</span> months
+            </div>
+            <div class="num-of-days">
+              <span class="dash dash-day">- -</span> days
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/SabinaCristea">Sabina</a>.
+      </div>
+    </footer>
+  </body>
+</html>
